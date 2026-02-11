@@ -42,8 +42,8 @@
   "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
   "projects": [
     {
-      "title": "Project / Award Title 1",
-      "description": "A brief description of a notable research project or award. Explain the goal, your contribution, and the outcome.",
+      "title": "Undergraduate project KNUST",
+      "description": "As part of my final‑year undergraduate project in the Department of Chemistry at KNUST, I investigated the quality of groundwater used for drinking in the Offinso‑North District of the Ashanti Region of Ghana. The study focused on measuring key physicochemical parameters such as pH, electrical conductivity, total dissolved solids, alkalinity, hardness, and turbidity and the levels of selected metals and nutrients in borehole water. Ten borehole samples from different communities were analyzed for Fe, Zn, Mn, Cu, Pb, Cd, chloride, nitrate, sulfate, and phosphate to evaluate their suitability for human consumption. Overall, most measured parameters fell within World Health Organization guideline limits for drinking water, and cadmium and lead were below the analytical detection limits, indicating minimal contamination by these toxic metals. This project strengthened my interest in environmental and water-quality chemistry while providing useful baseline data for local water safety assessment.",
       "image": ""
     },
     {

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ernest Bernin – Chemistry PhD Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <nav class="navbar">
+    <div class="logo">Ernest&nbsp;Bernin</div>
+    <div id="menu-toggle" class="menu-toggle" aria-label="Open menu" role="button">☰</div>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="index.html" aria-current="page">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html">Projects & Awards</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero section -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1 id="hero-title">Ernest Bernin</h1>
+      <p id="hero-subtitle">PhD Candidate in Chemistry</p>
+      <p id="hero-tagline" style="font-size: 1.05rem; opacity: 0.95;"></p>
+      <a id="hero-cta" class="button" href="projects.html">Explore my work</a>
+    </div>
+  </header>
+
+  <!-- About preview -->
+  <section class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p id="about-short"></p>
+      <a class="text-link" href="about.html">Read more →</a>
+    </div>
+  </section>
+
+  <!-- Research carousel -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Research</h2>
+      <p style="text-align:center; max-width: 760px; margin: 0 auto 1.25rem;">
+        Key topics and interests. Click a card to learn more on the Research page.
+      </p>
+      <div id="research-carousel"></div>
+      <p style="text-align:center; margin-top: 1rem;">
+        <a class="text-link" href="research.html">View full research overview →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Publications carousel -->
+  <section class="section">
+    <div class="container">
+      <h2>Selected Publications</h2>
+      <div id="publications-carousel"></div>
+      <p id="publications-note" style="text-align:center; margin-top: 1rem;"></p>
+      <p style="text-align:center; margin-top: 0.25rem;">
+        <a class="text-link" href="publications.html">See all publications →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Projects & Awards carousel -->
+  <section class="section section-alt">
+    <div class="container">
+      <h2>Projects & Awards</h2>
+      <div id="projects-carousel"></div>
+      <p style="text-align:center; margin-top: 1rem;">
+        <a class="text-link" href="projects.html">View projects & awards →</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact preview (kept on home as well) -->
+  <section class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-body">
+            <h3>Get in touch</h3>
+            <p id="contact-availability"></p>
+            <p><strong>Email:</strong> <a id="contact-email" class="text-link" href="#">ernest.bernin@example.com</a></p>
+            <p id="contact-location"></p>
+            <p><a id="contact-linkedin" class="text-link" href="#" target="_blank" rel="noopener">LinkedIn →</a></p>
+            <p style="margin-top: 0.75rem;"><a class="button" href="contact.html">Contact page</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>CV</h3>
+            <p>Download a PDF copy of my CV.</p>
+            <p style="margin-top: 0.75rem;"><a id="cv-link" class="button" href="data/uploads/cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ernest Bernin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { loadSiteData, setYear, wireMobileNav, mountCarousel } from './pages/_shared.js';
+
+    function normalizeImagePath(p) {
+      if (!p) return '';
+      // If editor uploads to /data/uploads/... keep it as-is.
+      // If they paste a relative path without leading slash, leave it.
+      return p;
+    }
+
+    function normalizeCardItems(items) {
+      return items.map((it) => {
+        if (typeof it === 'string') {
+          return { title: it, description: '', image: '' };
+        }
+        return { ...it, image: normalizeImagePath(it.image || '') };
+      });
+    }
+
+    (async function init() {
+      wireMobileNav();
+      setYear();
+
+      const data = await loadSiteData();
+
+      // Hero
+      document.getElementById('hero-title').textContent = data.heroTitle || 'Ernest Bernin';
+      document.getElementById('hero-subtitle').textContent = data.heroSubtitle || 'PhD Candidate in Chemistry';
+      document.getElementById('hero-tagline').textContent = data.tagline || '';
+
+      // About preview
+      document.getElementById('about-short').textContent = data.aboutShort || '';
+
+      // CV
+      const cvHref = data.cvFile && typeof data.cvFile === 'string' && data.cvFile.trim()
+        ? data.cvFile
+        : 'data/uploads/cv.pdf';
+      document.getElementById('cv-link').href = cvHref;
+
+      // Contact preview
+      const email = data.contactEmail || 'ernest.bernin@example.com';
+      const emailEl = document.getElementById('contact-email');
+      emailEl.textContent = email;
+      emailEl.href = 'mailto:' + email;
+
+      const linkedIn = data.contactLinkedIn || '';
+      const liEl = document.getElementById('contact-linkedin');
+      if (linkedIn) {
+        liEl.href = linkedIn;
+        liEl.style.display = 'inline-block';
+      } else {
+        liEl.style.display = 'none';
+      }
+
+      document.getElementById('contact-location').textContent = data.contactLocation ? ('Location: ' + data.contactLocation) : '';
+      document.getElementById('contact-availability').textContent = data.contactAvailability || '';
+
+      // Carousels (home)
+      const researchItems = normalizeCardItems(Array.isArray(data.research) ? data.research : []);
+      const pubItems = normalizeCardItems(Array.isArray(data.publications) ? data.publications : []);
+      const projItems = normalizeCardItems(Array.isArray(data.projects) ? data.projects : []);
+
+      const researchContainer = document.getElementById('research-carousel');
+      mountCarousel(researchContainer, researchItems.slice(0, 8), 'research', 'research.html');
+
+      const pubsContainer = document.getElementById('publications-carousel');
+      mountCarousel(pubsContainer, pubItems.slice(0, 8), 'publication', 'publications.html');
+      document.getElementById('publications-note').textContent = data.publicationsNote || '';
+
+      const projectsContainer = document.getElementById('projects-carousel');
+      mountCarousel(projectsContainer, projItems.slice(0, 8), 'project', 'projects.html');
+    })();
+  </script>
+</body>
+</html>

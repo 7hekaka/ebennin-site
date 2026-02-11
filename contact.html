@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact – Ernest Bernin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">Ernest&nbsp;Bernin</div>
+    <div id="menu-toggle" class="menu-toggle" aria-label="Open menu" role="button">☰</div>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="projects.html">Projects & Awards</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <h1>Contact</h1>
+      <p>For collaborations, talks, or research discussions, feel free to reach out.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div class="cards">
+        <div class="card">
+          <div class="card-body">
+            <h3>Direct</h3>
+            <p id="contact-availability"></p>
+            <p><strong>Email:</strong> <a id="contact-email" class="text-link" href="#">ernest.bernin@example.com</a></p>
+            <p id="contact-location"></p>
+            <p><a id="contact-linkedin" class="text-link" href="#" target="_blank" rel="noopener">LinkedIn →</a></p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h3>CV</h3>
+            <p>Download a PDF copy of my CV.</p>
+            <p style="margin-top: 0.75rem;"><a id="cv-link" class="button" href="data/uploads/cv.pdf" target="_blank" rel="noopener">Download CV</a></p>
+          </div>
+        </div>
+      </div>
+
+      <p style="margin-top: 1.5rem; text-align:center; color:#5b6b7b;">
+        Tip: if you prefer, add a contact form via Netlify Forms once the site is hosted.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ernest Bernin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { loadSiteData, setYear, wireMobileNav } from './pages/_shared.js';
+
+    (async () => {
+      setYear();
+      wireMobileNav();
+      const data = await loadSiteData();
+
+      const availability = document.getElementById('contact-availability');
+      if (availability) availability.textContent = data.contactAvailability || '';
+
+      const emailEl = document.getElementById('contact-email');
+      if (emailEl && data.contactEmail) {
+        emailEl.textContent = data.contactEmail;
+        emailEl.href = 'mailto:' + data.contactEmail;
+      }
+
+      const locEl = document.getElementById('contact-location');
+      if (locEl && data.contactLocation) locEl.innerHTML = '<strong>Location:</strong> ' + data.contactLocation;
+
+      const li = document.getElementById('contact-linkedin');
+      if (li) {
+        if (data.contactLinkedIn) li.href = data.contactLinkedIn;
+        else li.style.display = 'none';
+      }
+
+      const cvLink = document.getElementById('cv-link');
+      if (cvLink && data.cvFile) cvLink.href = data.cvFile;
+    })();
+  </script>
+</body>
+</html>

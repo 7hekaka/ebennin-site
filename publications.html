@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications – Ernest Bernin</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="logo">Ernest&nbsp;Bernin</div>
+    <div id="menu-toggle" class="menu-toggle" aria-label="Open menu" role="button">☰</div>
+    <ul id="nav-links" class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="publications.html" aria-current="page">Publications</a></li>
+      <li><a href="projects.html">Projects & Awards</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <div class="container">
+      <h1>Publications</h1>
+      <p id="pubs-lede">Peer-reviewed articles, preprints, and selected writing.</p>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <div id="pubs-grid" class="grid"></div>
+      <p id="pubs-note" style="text-align:center; margin-top: 1.25rem;"></p>
+      <p style="text-align:center; margin-top: 0.75rem;">
+        <a id="cv-link" class="button" href="data/uploads/cv.pdf" target="_blank" rel="noopener">Download CV</a>
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> Ernest Bernin. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script type="module">
+    import { loadSiteData, setYear, wireMobileNav, card } from './pages/_shared.js';
+
+    (async () => {
+      setYear();
+      wireMobileNav();
+      const data = await loadSiteData();
+
+      const grid = document.getElementById('pubs-grid');
+      if (grid && Array.isArray(data.publications)) {
+        grid.innerHTML = '';
+        data.publications.forEach((p) => {
+          // Publications are not forced to click to another page; each card can optionally include a link
+          grid.appendChild(card({
+            title: p.title,
+            journal: p.journal,
+            year: p.year,
+            link: p.link || '',
+            description: p.description || '',
+            image: p.image || ''
+          }, 'publication'));
+        });
+      }
+
+      const note = document.getElementById('pubs-note');
+      if (note && data.publicationsNote) note.textContent = data.publicationsNote;
+
+      const cvLink = document.getElementById('cv-link');
+      if (cvLink && data.cvFile) cvLink.href = data.cvFile;
+    })();
+  </script>
+</body>
+</html>

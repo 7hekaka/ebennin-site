@@ -9,11 +9,17 @@
       "description": "This is an article highlighting how federal funding influenced my academic path, resulting in my involvement in cutting-edge research areas: catalysis and molecular sensing."
     },
     {
-      "title": "Title 2",
-      "journal": "Journal Name",
-      "year": "2025",
-      "link": "",
+      "title": "Selective Sensing of Nerve Agent Simulant via Dirhodium(II,II) Paddlewheel Complexes Featuring Pendant Hemilabile Thioether Ligands",
+      "journal": "ACS Omega",
+      "year": "2026",
+      "link": "submitted, manuscript ID ao-2025-10394v",
       "image": ""
+    },
+    {
+      "title": "Chromogenic detection of the organophosphate nerve agent simulant DCP mediated by rhodium(II,II)paddlewheel complexes.",
+      "journal": "ACS Sensors",
+      "year": "2024",
+      "link": "https://doi.org/10.1021/acssensors.3c01993"
     }
   ],
   "aboutLong": "Ernest Bennin is a Ph.D. candidate at the University of Tennessee, Knoxville. He holds a Bachelor of Science degree in Chemistry from the Kwame Nkrumah University of Science and Technology (KNUST), Ghana. He is a member of the NSF Center for Computer-Assisted Synthesis (NSF-CCAS), the American Chemical Society (ACS), and NOBCChE. His current research focuses on:\n\n*Novel ligand designs (organic synthesis)\n*Rhodium paddlewheel complexes synthesis \n*Utilization of rhodium paddlewheel complexes in asymmetric catalysis\n*Development of Rh(II)-based chemical sensors for chromogenic detection of biomolecules\n",

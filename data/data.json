@@ -1,11 +1,39 @@
 {
-  "heroTitle": "Ernest Bernin",
-  "heroSubtitle": "PhD Candidate in Chemistry",
-  "tagline": "Research • Teaching • Outreach",
-
-  "aboutShort": "Ernest Bernin is a doctoral candidate in chemistry at [University Name], exploring research at the intersection of synthesis and chemical reactivity.",
+  "publications": [
+    {
+      "title": "Title 1",
+      "journal": "Journal Name",
+      "year": "2024",
+      "link": "",
+      "image": ""
+    },
+    {
+      "title": "Title 2",
+      "journal": "Journal Name",
+      "year": "2025",
+      "link": "",
+      "image": ""
+    }
+  ],
   "aboutLong": "Ernest Bernin is a doctoral candidate in chemistry at [University Name]. His research focuses on developing new synthetic methods and understanding the mechanistic principles that enable selective transformations. He combines experimental work with careful data analysis to turn observations into clear chemical insight.\n\nErnest also contributes to teaching and mentorship through TA roles, peer advising, and outreach activities aimed at making chemistry more accessible.",
-
+  "tagline": "Research • Teaching • Outreach",
+  "cvFile": "",
+  "aboutShort": "Ernest Bernin is a doctoral candidate in chemistry at [University Name], exploring research at the intersection of synthesis and chemical reactivity.",
+  "heroSubtitle": "PhD Candidate in Chemistry",
+  "contactLocation": "Knoxville, TN (or your city)",
+  "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
+  "projects": [
+    {
+      "title": "Project / Award Title 1",
+      "description": "A brief description of a notable research project or award. Explain the goal, your contribution, and the outcome.",
+      "image": ""
+    },
+    {
+      "title": "Project / Award Title 2",
+      "description": "A brief description of another significant project or scholarly achievement.",
+      "image": ""
+    }
+  ],
   "research": [
     {
       "title": "Synthetic Organic Chemistry",
@@ -23,42 +51,8 @@
       "image": ""
     }
   ],
-
-  "publications": [
-    {
-      "title": "Title 1",
-      "journal": "Journal Name",
-      "year": "2024",
-      "link": "",
-      "image": ""
-    },
-    {
-      "title": "Title 2",
-      "journal": "Journal Name",
-      "year": "2025",
-      "link": "",
-      "image": ""
-    }
-  ],
-  "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
-
-  "projects": [
-    {
-      "title": "Project / Award Title 1",
-      "description": "A brief description of a notable research project or award. Explain the goal, your contribution, and the outcome.",
-      "image": ""
-    },
-    {
-      "title": "Project / Award Title 2",
-      "description": "A brief description of another significant project or scholarly achievement.",
-      "image": ""
-    }
-  ],
-
+  "contactAvailability": "Open to collaborations and speaking opportunities.",
   "contactEmail": "ernest.bernin@example.com",
   "contactLinkedIn": "https://www.linkedin.com/in/ernestbernin",
-  "contactLocation": "Knoxville, TN (or your city)",
-  "contactAvailability": "Open to collaborations and speaking opportunities.",
-
-  "cvFile": ""
+  "heroTitle": "Ernest BENNIN"
 }

@@ -1,7 +1,7 @@
 {
   "publications": [
     {
-      "title": "Op-Ed \" . “How federal research funding transformed my path.“ by Ernest Bennin",
+      "title": "Op-Ed “How federal research funding transformed my path.“ by Ernest Bennin",
       "journal": "Knox News",
       "year": "2026",
       "link": "https://www.knoxnews.com/story/opinion/columnists/2026/01/13/opinion-how-federal-research-funding-transformed-my-path/88147727007/",
@@ -56,6 +56,10 @@
       "title": "Computational Chemistry",
       "description": "Using modeling to interpret experiments, predict reactivity, and guide catalyst design.",
       "image": ""
+    },
+    {
+      "title": "Molecular Sensing ",
+      "description": "Design transition metal-based chemical probes for biomolecule detection "
     }
   ],
   "contactAvailability": "Open to collaborations and speaking opportunities.",

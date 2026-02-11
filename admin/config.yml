@@ -1,0 +1,50 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "data/uploads"
+public_folder: "/data/uploads"
+
+collections:
+  - name: "site_data"
+    label: "Site Content"
+    files:
+      - file: "data/data.json"
+        label: "Main Content"
+        name: "main_content"
+        format: "json"
+        fields:
+          - {label: "Hero Title", name: heroTitle, widget: string}
+          - {label: "Hero Subtitle", name: heroSubtitle, widget: string}
+          - {label: "Tagline", name: tagline, widget: string, required: false}
+          - {label: "About (short, homepage)", name: aboutShort, widget: text}
+          - {label: "About (full page)", name: aboutLong, widget: text}
+          - label: "Research (cards)"
+            name: research
+            widget: list
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "Description", name: description, widget: text, required: false}
+              - {label: "Image (optional)", name: image, widget: image, required: false}
+          - label: "Publications"
+            name: publications
+            widget: list
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "Journal", name: journal, widget: string}
+              - {label: "Year", name: year, widget: string}
+              - {label: "Link (DOI / paper URL)", name: link, widget: string, required: false}
+              - {label: "Short description", name: description, widget: text, required: false}
+              - {label: "Image (optional)", name: image, widget: image, required: false}
+          - {label: "Publications Note", name: publicationsNote, widget: string, required: false}
+          - label: "Projects"
+            name: projects
+            widget: list
+            fields:
+              - {label: "Title", name: title, widget: string}
+              - {label: "Description", name: description, widget: text}
+              - {label: "Image (optional)", name: image, widget: image, required: false}
+          - {label: "Contact Email", name: contactEmail, widget: string}
+          - {label: "Contact LinkedIn", name: contactLinkedIn, widget: string, required: false}
+          - {label: "Contact Location", name: contactLocation, widget: string, required: false}
+          - {label: "Contact Availability", name: contactAvailability, widget: string, required: false}
+          - {label: "CV File", name: cvFile, widget: file, required: false}

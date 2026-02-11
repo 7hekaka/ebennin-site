@@ -36,18 +36,18 @@
   ],
   "research": [
     {
-      "title": "Synthetic Organic Chemistry",
-      "description": "Designing efficient, selective routes to complex molecules and functional building blocks.",
+      "title": "Ligand Design ",
+      "description": "Designing ligands on dirhodium complexes for asymmetric catalysis and detection of organophosphate nerve agent simulants. ",
       "image": ""
     },
     {
-      "title": "Catalysis & Mechanisms",
-      "description": "Developing catalytic methods and probing mechanisms using kinetics and spectroscopy.",
+      "title": "Catalysis and DFT conformational analysis",
+      "description": "Developing heteroleptic symmetric catalysts for asymmetric catalysis and investigating them with DFT conformational analysis.",
       "image": ""
     },
     {
       "title": "Computational Chemistry",
-      "description": "Using modeling to interpret experiments, predict reactivity, and guide molecular design.",
+      "description": "Using modeling to interpret experiments, predict reactivity, and guide catalyst design.",
       "image": ""
     }
   ],

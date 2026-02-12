@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ernest Bernin – Chemistry PhD Student</title>
+  <title>Ernest Bennin – Chemistry PhD Student</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -15,7 +15,7 @@
 <body>
   <!-- Navigation bar -->
   <nav class="navbar">
-    <div class="logo">Ernest&nbsp;Bernin</div>
+    <div class="logo">Ernest&nbsp;Bennin</div>
     <div id="menu-toggle" class="menu-toggle" aria-label="Open menu" role="button">☰</div>
     <ul id="nav-links" class="nav-links">
       <li><a href="index.html" aria-current="page">Home</a></li>
@@ -30,7 +30,7 @@
   <!-- Hero section -->
   <header class="hero">
     <div class="hero-content">
-      <h1 id="hero-title">Ernest Bernin</h1>
+      <h1 id="hero-title">Ernest Bennin</h1>
       <p id="hero-subtitle">PhD Candidate in Chemistry</p>
       <p id="hero-tagline" style="font-size: 1.05rem; opacity: 0.95;"></p>
       <a id="hero-cta" class="button" href="projects.html">Explore my work</a>
@@ -92,7 +92,7 @@
           <div class="card-body">
             <h3>Get in touch</h3>
             <p id="contact-availability"></p>
-            <p><strong>Email:</strong> <a id="contact-email" class="text-link" href="#">ernest.bernin@example.com</a></p>
+            <p><strong>Email:</strong> <a id="contact-email" class="text-link" href="#">ernest.Bennin@example.com</a></p>
             <p id="contact-location"></p>
             <p><a id="contact-linkedin" class="text-link" href="#" target="_blank" rel="noopener">LinkedIn →</a></p>
             <p style="margin-top: 0.75rem;"><a class="button" href="contact.html">Contact page</a></p>
@@ -111,7 +111,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; <span id="year"></span> Ernest Bernin. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Ernest Bennin. All rights reserved.</p>
     </div>
   </footer>
 
@@ -141,7 +141,7 @@
       const data = await loadSiteData();
 
       // Hero
-      document.getElementById('hero-title').textContent = data.heroTitle || 'Ernest Bernin';
+      document.getElementById('hero-title').textContent = data.heroTitle || 'Ernest Bennin';
       document.getElementById('hero-subtitle').textContent = data.heroSubtitle || 'PhD Candidate in Chemistry';
       document.getElementById('hero-tagline').textContent = data.tagline || '';
 
@@ -155,7 +155,7 @@
       document.getElementById('cv-link').href = cvHref;
 
       // Contact preview
-      const email = data.contactEmail || 'ernest.bernin@example.com';
+      const email = data.contactEmail || 'ernest.Bennin@example.com';
       const emailEl = document.getElementById('contact-email');
       emailEl.textContent = email;
       emailEl.href = 'mailto:' + email;

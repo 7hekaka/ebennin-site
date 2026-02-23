@@ -42,98 +42,9 @@
   "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
   "projects": [
     {
-      "title": "Undergraduate project | KNUST",
-      "description": "As part of my final‑year undergraduate project in the Department of Chemistry at KNUST, I investigated the quality of groundwater used for drinking in the Offinso‑North District of the Ashanti Region of Ghana under the supervision of Prof. Nkansah A. Asantewaah. The study focused on measuring key physicochemical parameters such as pH, electrical conductivity, total dissolved solids, alkalinity, hardness, and turbidity and the levels of selected metals and nutrients in borehole water. Ten borehole samples from different communities were analyzed for Fe, Zn, Mn, Cu, Pb, Cd, chloride, nitrate, sulfate, and phosphate to evaluate their suitability for human consumption. Overall, most measured parameters fell within World Health Organization guideline limits for drinking water, and cadmium and lead were below the analytical detection limits, indicating minimal contamination by these toxic metals. This project strengthened my interest in environmental and water-quality chemistry while providing useful baseline data for local water safety assessment.",
-      "image": "/data/uploads/125f3e81-841c-4e18-b92f-a6344b80fa8f.jpeg"
-    },
-    {
-      "title": "Ernest Bennin | B.S in Chemistry",
-      "description": "I earned my Bachelor of Science in Chemistry (first class honors; GPA 3.69/4.00) from the Kwame Nkrumah University of Science and Technology (KNUST), where I built a strong foundation in organic, inorganic, physical, and analytical chemistry and gained extensive hands-on laboratory experience. My undergraduate work focused on environmental chemistry. As an open‑minded young chemist, I was less concerned with specializing early than with contributing to science and improving lives, so I remained open to wherever my academic path might lead. This mindset continues to shape my current research interests and long‑term professional goals",
-      "image": "/data/uploads/img_0045-copy.jpeg"
-    },
-    {
-      "title": "Teaching Assistant | Chemistry Dept. | KNUST",
-      "image": "/data/uploads/f9484962-44aa-47d7-b7fd-58babad3a945.jpeg",
-      "description": "At the end of my undergraduate studies at KNUST, I was selected on merit to serve as a teaching assistant, working with distinguished faculty members, including Prof. E. Kwansah, Prof. Osei-Akoto, and Prof. Darko, on both teaching and laboratory activities. This role provided invaluable early exposure to academic mentoring, pedagogy, and practical laboratory management, which strongly aligned with my desire as a young chemist to make a meaningful impact. My service to the department earned me strong letters of recommendation that have significantly shaped my academic trajectory and contributed to the opportunities I enjoy today."
-    },
-    {
-      "title": "Chemistry Debate Judge | Chemistry Department | KNUST",
-      "description": "Serving as a chemistry debate judge on ozone layer depletion intensified my appreciation for science communication and critical thinking. With other judges, we evaluated arguments from participating teams on topics such as the chemistry of ozone-depleting substances, atmospheric reactions, and global policy responses, focusing on scientific accuracy, clarity, and real-world relevance. This experience strengthened my ability to assess complex scientific information, give constructive feedback, and engage diverse audiences on environmentally significant issues",
-      "image": "/data/uploads/45502a26-5c81-4954-998d-7779e25d3070.jpeg"
-    },
-    {
-      "title": "Mentorship | KNUST",
-      "description": "I had the opportunity to mentor undergraduate students during my time at KNUST, guiding them through coursework, laboratory techniques, and early research experiences. This role strengthened my commitment to teaching and mentorship, and it allowed me to support students as they built confidence in their scientific skills and career aspirations.",
-      "image": "/data/uploads/1417f941-f46e-4218-a246-2bcafcdf183f.jpeg"
-    },
-    {
-      "title": "FY23 Grad School Fellowship | University of Tennessee",
-      "description": "In 2022, I received the FY23 Graduate School Fellowship at the University of Tennessee, Knoxville, to pursue my Ph.D. in chemistry directly after completing my bachelor’s degree. This five‑year award provides sustained support for my graduate studies and research, allowing me to transition seamlessly from undergraduate training into a full‑time research-focused doctoral program. Being selected for this fellowship has affirmed my potential as an emerging scientist and given me the resources and flexibility to focus on impactful, long-term research goals.",
-      "image": "/data/uploads/img_0682.jpeg"
-    },
-    {
-      "title": "Teaching Assistant | Chemistry | UTK",
-      "image": "/data/uploads/img_4475.jpeg",
-      "description": "As part of the UTK Chemistry Ph.D. program, the teaching assistantship is designed to support first-year students’ professional development before they join their assigned research groups. During this period, I taught both General Chemistry laboratories and Foundations of Organic Chemistry."
-    },
-    {
-      "title": "Darko Research Group | UTK",
-      "description": "In January 2023, I officially joined the Darko Research Group after successfully completing a synthetic assignment, my first time independently carrying out a full synthesis, given my primarily analytical background. My PI designed this task to assess my potential in a lab that focuses largely on organic and inorganic chemistry, with some analytical instrumentation, and it marked a key turning point in my transition toward synthesis‑driven research.\nMoreover, I met Eric Fussel and Desiree Moore, who were fourth-year PhD students. They were very helpful and made the lab environment welcoming, which made my transition much easier.",
-      "image": "/data/uploads/img_8102.jpeg"
-    },
-    {
-      "title": "Joined NSF-CCAS",
-      "description": "In 2023, with the support of my principal investigator, I joined the NSF Center for Computer-Assisted Synthesis (C-CAS), a multi-institutional network that brings together synthetic chemists, computational chemists, computer scientists, and industry partners to accelerate reaction discovery and improve sustainable synthesis. The cross-disciplinary exposure I have gained through C-CAS has been invaluable in advancing my efforts to develop more selective and efficient catalysts for asymmetric synthesis.",
-      "image": "/data/uploads/img_3048.png"
-    },
-    {
-      "title": "Research Open House | Chemistry | UTK",
-      "image": "/data/uploads/img_3522.jpeg",
-      "description": "In 2024, I volunteered to host prospective graduate students visiting the Department of Chemistry at the University of Tennessee, Knoxville. The program exposed them to our academic offerings, student organizations, research facilities, and more, culminating in an enjoyable boat cruise (as shown in the attached image)."
-    },
-    {
-      "description": "In 2024, as part of the UTK Chemistry PhD program, I passed the comprehensive qualifying exam (requiring a minimum GPA of 3.0/4.0) to advance. My presentation focused on ligand-modified dirhodium complexes for asymmetric cyclopropanation and OPNA simulant detection, building on prior reports by incorporating dansyl fluorophores to enhance sensitivity. This rigorous training tested core chemistry concepts, scientific communication, and broader research impacts.",
-      "title": "Candidacy Exam | Chemistry | UTK",
-      "image": "/data/uploads/img_1790.jpeg"
-    },
-    {
-      "title": "NOBCChE 2024 Conference | Orlando, FL",
-      "image": "/data/uploads/img_0154.jpeg",
-      "description": "In 2024, my abstract “Asymmetric Cyclopropanation on Dirhodium(II,II) Paddlewheel Complexes with Tethered, Axially Coordinated Ligands” was selected for presentation at the NOBCChE 2024 51st conference (“Building Momentum”). The event provided valuable opportunities to engage with experts sharing cutting-edge research; reconnect with KNUST alumni, peers from other institutions, NOBCChE leaders, and professionals from AbbVie, Merck, DuPont, Waters, and beyond; and foster personal and professional growth."
-    },
-    {
-      "title": "The Graduate Student Senate Travel Award                                                                                                      ",
-      "description": "In 2024, I was awarded $1,200 in merit-based funding for an abstract selected for conference presentation following committee review."
-    },
-    {
-      "title": "Mentorship | Chemistry | UTK",
-      "image": "/data/uploads/img_2417.jpeg",
-      "description": "I had the opportunity to mentor Taylor Nicole Totorp, providing her with hands-on experience in essential laboratory techniques such as maintaining a lab notebook, setting up chemical reactions, performing purification processes (including chromatography and liquid–liquid extraction), and analyzing data using NMR spectroscopy. Additionally, I guided her in developing key soft skills, including scientific communication through poster and group meeting presentations, as well as scientific document preparation."
-    },
-    {
-      "title": "3rd Year Seminar | Chemistry | UTK",
-      "description": "As part of the Ph.D. program at the University of Tennessee, students are required to present a departmental seminar based on their second-year research proposal. This presentation highlights research progress, challenges encountered, strategies for overcoming those challenges, and any new directions or emerging projects stemming from the original proposal. It also serves as an opportunity to share personal and professional milestones with the department, including grants, awards, conference participation, honors, and public features.",
-      "image": "/data/uploads/img_2694.jpeg"
-    },
-    {
-      "title": "NSF-C-CAS Professional Development Travel Award | 100th ACS NOS Conference",
-      "image": "/data/uploads/img_3546.jpeg",
-      "description": "I won this travel award to attend the American Chemical Society - Division of Organic Chemistry 𝟏𝟎𝟎𝐭𝐡 𝐍𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐎𝐫𝐠𝐚𝐧𝐢𝐜 𝐂𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲 𝐒𝐲𝐦𝐩𝐨𝐬𝐢𝐮𝐦 (𝐍𝐎𝐒) at Rensselaer Polytechnic Institute, Troy, NY.\nI was privileged to meet 𝟐𝟎𝟐𝟐 𝐍𝐨𝐛𝐞𝐥 𝐋𝐚𝐮𝐫𝐞𝐚𝐭𝐞 Morten Meldal and network with industry leaders from Pfizer, Merck, Waters Corporation, Bruker, and many others. And, beyond the science, the event featured some unforgettable moments."
-    },
-    {
-      "title": "NOBCChE President | UTK Chapter, 2025",
-      "description": "I was elected President of the National Organization for the Professional Advancement of Black Chemists and Chemical Engineers (NOBCChE) chapter at the University of Tennessee, Knoxville. In this role, I lead strategic initiatives focused on professional development, industry engagement, and research exposure for undergraduate and graduate students in STEM. My presidency emphasizes building strong institutional partnerships, expanding mentorship opportunities, and creating platforms that connect members to real-world scientific innovation. Through collaborative leadership, I work to strengthen the chapter’s impact both on campus and within the broader scientific community.",
-      "image": "/data/uploads/ebbae649-a98b-49e9-a52b-738bcbad4de2.jpeg"
-    },
-    {
-      "title": "NOBCChE 2025 Conference | Atlanta, GA",
-      "description": "In 2025, my abstract “Chromogenic Detection of the Organophosphorus Nerve Agent Simulant DCP Mediated by Rhodium(II,II) Paddlewheel Complexes\" was accepted for presentation, and the Advancing Science Conference Grant was awarded.\nThis conference was truly motivating to share recent progress on Rh(II,II)-based chemical sensors for OPNA detection and to engage in inspiring conversations with researchers and professionals passionate about driving chemical innovation.\nIt was also an honor, in my role as president of NOBCChE-UTK, to meet with distinguished leaders such as Dr. Arthur W. Martin and LaRico Treadwell, Ph.D., to discuss both our challenges and the exciting events ahead.",
-      "image": "/data/uploads/img_9291.jpeg"
-    },
-    {
-      "description": "As a member of the National Science Foundation Center for Computer-Assisted Synthesis (C-CAS) exhibitor team, I had the opportunity to represent our center and share its research initiatives with students, faculty, and industry partners. Engaging with colleagues across disciplines allowed me to highlight our work in advancing computational tools for chemical synthesis while fostering meaningful scientific dialogue",
-      "title": "NSF-CCI exhibitor | NOBCChE 2025 Conference, ATL",
-      "image": "/data/uploads/img_4430.jpeg"
+      "title": "President & Founding Member of GSA | UTK",
+      "description": "As a founding member and the elected president of the Ghana Student Association at the University of Tennessee, Knoxville, I lead the development of the organization’s vision, governance structure, and long-term strategic direction. Elected by the founding members, I have played a central role in establishing a sustainable platform that promotes cultural awareness, community engagement, and academic support for Ghanaian students and the broader campus community.\nThrough intentional leadership and collaboration, I continue to strengthen the association’s institutional presence while fostering meaningful connections that celebrate heritage, encourage mentorship, and enhance cross-cultural dialogue across campus.",
+      "image": "/data/uploads/aeffaa2f-4134-4292-9e30-e5880a831a8f.jpeg"
     },
     {
       "title": "Original Research Proposal Examination | Chemistry, UTK",
@@ -141,9 +52,98 @@
       "description": "In November 2025, I successfully passed my O.R.P. (Original Research Proposal) examination, a major doctoral milestone in the Department of Chemistry at the University of Tennessee, Knoxville. This rigorous fourth-year assessment requires Ph.D. candidates to develop and defend a 15-page original research proposal unrelated to their dissertation work. The proposal is evaluated through an oral defense before a faculty committee and serves as a decisive pass-or-fail examination. Unsuccessful performance results in completion of the program with a master’s degree.\n\nMy proposal focused on the design and application of oxovanadium complexes as molecular probes for the detection of Plasmodium falciparum, introducing a novel strategy to distinguish between active and inactive malaria infections. This approach addresses a longstanding diagnostic limitation in global health, where current methods often struggle to differentiate persistent parasitic markers from ongoing infection. The project demonstrated my ability to conceptualize independent, interdisciplinary research at the interface of inorganic chemistry and biomedical diagnostics."
     },
     {
-      "title": "President & Founding Member of GSA | UTK",
-      "description": "As a founding member and the elected president of the Ghana Student Association at the University of Tennessee, Knoxville, I lead the development of the organization’s vision, governance structure, and long-term strategic direction. Elected by the founding members, I have played a central role in establishing a sustainable platform that promotes cultural awareness, community engagement, and academic support for Ghanaian students and the broader campus community.\nThrough intentional leadership and collaboration, I continue to strengthen the association’s institutional presence while fostering meaningful connections that celebrate heritage, encourage mentorship, and enhance cross-cultural dialogue across campus.",
-      "image": "/data/uploads/aeffaa2f-4134-4292-9e30-e5880a831a8f.jpeg"
+      "description": "As a member of the National Science Foundation Center for Computer-Assisted Synthesis (C-CAS) exhibitor team, I had the opportunity to represent our center and share its research initiatives with students, faculty, and industry partners. Engaging with colleagues across disciplines allowed me to highlight our work in advancing computational tools for chemical synthesis while fostering meaningful scientific dialogue",
+      "title": "NSF-CCI exhibitor | NOBCChE 2025 Conference, ATL",
+      "image": "/data/uploads/img_4430.jpeg"
+    },
+    {
+      "title": "NOBCChE 2025 Conference | Atlanta, GA",
+      "description": "In 2025, my abstract “Chromogenic Detection of the Organophosphorus Nerve Agent Simulant DCP Mediated by Rhodium(II,II) Paddlewheel Complexes\" was accepted for presentation, and the Advancing Science Conference Grant was awarded.\nThis conference was truly motivating to share recent progress on Rh(II,II)-based chemical sensors for OPNA detection and to engage in inspiring conversations with researchers and professionals passionate about driving chemical innovation.\nIt was also an honor, in my role as president of NOBCChE-UTK, to meet with distinguished leaders such as Dr. Arthur W. Martin and LaRico Treadwell, Ph.D., to discuss both our challenges and the exciting events ahead.",
+      "image": "/data/uploads/img_9291.jpeg"
+    },
+    {
+      "title": "NOBCChE President | UTK Chapter, 2025",
+      "description": "I was elected President of the National Organization for the Professional Advancement of Black Chemists and Chemical Engineers (NOBCChE) chapter at the University of Tennessee, Knoxville. In this role, I lead strategic initiatives focused on professional development, industry engagement, and research exposure for undergraduate and graduate students in STEM. My presidency emphasizes building strong institutional partnerships, expanding mentorship opportunities, and creating platforms that connect members to real-world scientific innovation. Through collaborative leadership, I work to strengthen the chapter’s impact both on campus and within the broader scientific community.",
+      "image": "/data/uploads/ebbae649-a98b-49e9-a52b-738bcbad4de2.jpeg"
+    },
+    {
+      "title": "NSF-C-CAS Professional Development Travel Award | 100th ACS NOS Conference",
+      "image": "/data/uploads/img_3546.jpeg",
+      "description": "I won this travel award to attend the American Chemical Society - Division of Organic Chemistry 𝟏𝟎𝟎𝐭𝐡 𝐍𝐚𝐭𝐢𝐨𝐧𝐚𝐥 𝐎𝐫𝐠𝐚𝐧𝐢𝐜 𝐂𝐡𝐞𝐦𝐢𝐬𝐭𝐫𝐲 𝐒𝐲𝐦𝐩𝐨𝐬𝐢𝐮𝐦 (𝐍𝐎𝐒) at Rensselaer Polytechnic Institute, Troy, NY.\nI was privileged to meet 𝟐𝟎𝟐𝟐 𝐍𝐨𝐛𝐞𝐥 𝐋𝐚𝐮𝐫𝐞𝐚𝐭𝐞 Morten Meldal and network with industry leaders from Pfizer, Merck, Waters Corporation, Bruker, and many others. And, beyond the science, the event featured some unforgettable moments."
+    },
+    {
+      "title": "3rd Year Seminar | Chemistry | UTK",
+      "description": "As part of the Ph.D. program at the University of Tennessee, students are required to present a departmental seminar based on their second-year research proposal. This presentation highlights research progress, challenges encountered, strategies for overcoming those challenges, and any new directions or emerging projects stemming from the original proposal. It also serves as an opportunity to share personal and professional milestones with the department, including grants, awards, conference participation, honors, and public features.",
+      "image": "/data/uploads/img_2694.jpeg"
+    },
+    {
+      "title": "NOBCChE 2024 Conference | Orlando, FL",
+      "image": "/data/uploads/img_0154.jpeg",
+      "description": "In 2024, my abstract “Asymmetric Cyclopropanation on Dirhodium(II,II) Paddlewheel Complexes with Tethered, Axially Coordinated Ligands” was selected for presentation at the NOBCChE 2024 51st conference (“Building Momentum”). The event provided valuable opportunities to engage with experts sharing cutting-edge research; reconnect with KNUST alumni, peers from other institutions, NOBCChE leaders, and professionals from AbbVie, Merck, DuPont, Waters, and beyond; and foster personal and professional growth."
+    },
+    {
+      "title": "Mentorship | Chemistry | UTK",
+      "image": "/data/uploads/img_2417.jpeg",
+      "description": "I had the opportunity to mentor Taylor Nicole Totorp, providing her with hands-on experience in essential laboratory techniques such as maintaining a lab notebook, setting up chemical reactions, performing purification processes (including chromatography and liquid–liquid extraction), and analyzing data using NMR spectroscopy. Additionally, I guided her in developing key soft skills, including scientific communication through poster and group meeting presentations, as well as scientific document preparation."
+    },
+    {
+      "title": "The Graduate Student Senate Travel Award                                                                                                      ",
+      "description": "In 2024, I was awarded $1,200 in merit-based funding for an abstract selected for conference presentation following committee review."
+    },
+    {
+      "description": "In 2024, as part of the UTK Chemistry PhD program, I passed the comprehensive qualifying exam (requiring a minimum GPA of 3.0/4.0) to advance. My presentation focused on ligand-modified dirhodium complexes for asymmetric cyclopropanation and OPNA simulant detection, building on prior reports by incorporating dansyl fluorophores to enhance sensitivity. This rigorous training tested core chemistry concepts, scientific communication, and broader research impacts.",
+      "title": "Candidacy Exam | Chemistry | UTK",
+      "image": "/data/uploads/img_1790.jpeg"
+    },
+    {
+      "title": "Research Open House | Chemistry | UTK",
+      "image": "/data/uploads/img_3522.jpeg",
+      "description": "In 2024, I volunteered to host prospective graduate students visiting the Department of Chemistry at the University of Tennessee, Knoxville. The program exposed them to our academic offerings, student organizations, research facilities, and more, culminating in an enjoyable boat cruise (as shown in the attached image)."
+    },
+    {
+      "title": "Joined NSF-CCAS",
+      "description": "In 2023, with the support of my principal investigator, I joined the NSF Center for Computer-Assisted Synthesis (C-CAS), a multi-institutional network that brings together synthetic chemists, computational chemists, computer scientists, and industry partners to accelerate reaction discovery and improve sustainable synthesis. The cross-disciplinary exposure I have gained through C-CAS has been invaluable in advancing my efforts to develop more selective and efficient catalysts for asymmetric synthesis.",
+      "image": "/data/uploads/img_3048.png"
+    },
+    {
+      "title": "Darko Research Group | UTK",
+      "description": "In January 2023, I officially joined the Darko Research Group after successfully completing a synthetic assignment, my first time independently carrying out a full synthesis, given my primarily analytical background. My PI designed this task to assess my potential in a lab that focuses largely on organic and inorganic chemistry, with some analytical instrumentation, and it marked a key turning point in my transition toward synthesis‑driven research.\nMoreover, I met Eric Fussel and Desiree Moore, who were fourth-year PhD students. They were very helpful and made the lab environment welcoming, which made my transition much easier.",
+      "image": "/data/uploads/img_8102.jpeg"
+    },
+    {
+      "title": "Teaching Assistant | Chemistry | UTK",
+      "image": "/data/uploads/img_4475.jpeg",
+      "description": "As part of the UTK Chemistry Ph.D. program, the teaching assistantship is designed to support first-year students’ professional development before they join their assigned research groups. During this period, I taught both General Chemistry laboratories and Foundations of Organic Chemistry."
+    },
+    {
+      "title": "FY23 Grad School Fellowship | University of Tennessee",
+      "description": "In 2022, I received the FY23 Graduate School Fellowship at the University of Tennessee, Knoxville, to pursue my Ph.D. in chemistry directly after completing my bachelor’s degree. This five‑year award provides sustained support for my graduate studies and research, allowing me to transition seamlessly from undergraduate training into a full‑time research-focused doctoral program. Being selected for this fellowship has affirmed my potential as an emerging scientist and given me the resources and flexibility to focus on impactful, long-term research goals.",
+      "image": "/data/uploads/img_0682.jpeg"
+    },
+    {
+      "title": "Mentorship | KNUST",
+      "description": "I had the opportunity to mentor undergraduate students during my time at KNUST, guiding them through coursework, laboratory techniques, and early research experiences. This role strengthened my commitment to teaching and mentorship, and it allowed me to support students as they built confidence in their scientific skills and career aspirations.",
+      "image": "/data/uploads/1417f941-f46e-4218-a246-2bcafcdf183f.jpeg"
+    },
+    {
+      "title": "Chemistry Debate Judge | Chemistry Department | KNUST",
+      "description": "Serving as a chemistry debate judge on ozone layer depletion intensified my appreciation for science communication and critical thinking. With other judges, we evaluated arguments from participating teams on topics such as the chemistry of ozone-depleting substances, atmospheric reactions, and global policy responses, focusing on scientific accuracy, clarity, and real-world relevance. This experience strengthened my ability to assess complex scientific information, give constructive feedback, and engage diverse audiences on environmentally significant issues",
+      "image": "/data/uploads/45502a26-5c81-4954-998d-7779e25d3070.jpeg"
+    },
+    {
+      "title": "Teaching Assistant | Chemistry Dept. | KNUST",
+      "image": "/data/uploads/f9484962-44aa-47d7-b7fd-58babad3a945.jpeg",
+      "description": "At the end of my undergraduate studies at KNUST, I was selected on merit to serve as a teaching assistant, working with distinguished faculty members, including Prof. E. Kwansah, Prof. Osei-Akoto, and Prof. Darko, on both teaching and laboratory activities. This role provided invaluable early exposure to academic mentoring, pedagogy, and practical laboratory management, which strongly aligned with my desire as a young chemist to make a meaningful impact. My service to the department earned me strong letters of recommendation that have significantly shaped my academic trajectory and contributed to the opportunities I enjoy today."
+    },
+    {
+      "title": "Ernest Bennin | B.S in Chemistry",
+      "description": "I earned my Bachelor of Science in Chemistry (first class honors; GPA 3.69/4.00) from the Kwame Nkrumah University of Science and Technology (KNUST), where I built a strong foundation in organic, inorganic, physical, and analytical chemistry and gained extensive hands-on laboratory experience. My undergraduate work focused on environmental chemistry. As an open‑minded young chemist, I was less concerned with specializing early than with contributing to science and improving lives, so I remained open to wherever my academic path might lead. This mindset continues to shape my current research interests and long‑term professional goals",
+      "image": "/data/uploads/img_0045-copy.jpeg"
+    },
+    {
+      "title": "Undergraduate project | KNUST",
+      "description": "As part of my final‑year undergraduate project in the Department of Chemistry at KNUST, I investigated the quality of groundwater used for drinking in the Offinso‑North District of the Ashanti Region of Ghana under the supervision of Prof. Nkansah A. Asantewaah. The study focused on measuring key physicochemical parameters such as pH, electrical conductivity, total dissolved solids, alkalinity, hardness, and turbidity and the levels of selected metals and nutrients in borehole water. Ten borehole samples from different communities were analyzed for Fe, Zn, Mn, Cu, Pb, Cd, chloride, nitrate, sulfate, and phosphate to evaluate their suitability for human consumption. Overall, most measured parameters fell within World Health Organization guideline limits for drinking water, and cadmium and lead were below the analytical detection limits, indicating minimal contamination by these toxic metals. This project strengthened my interest in environmental and water-quality chemistry while providing useful baseline data for local water safety assessment.",
+      "image": "/data/uploads/125f3e81-841c-4e18-b92f-a6344b80fa8f.jpeg"
     }
   ],
   "research": [

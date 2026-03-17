@@ -47,6 +47,32 @@
     </div>
   </section>
 
+  <section class="container">
+  <h2>Latest News</h2>
+  <div id="news-preview" class="cards"></div>
+  <a href="news.html">View all news →</a>
+</section>
+
+<script>
+fetch('data/data.json')
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById('news-preview');
+
+    data.news.slice(0,3).forEach(item => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      card.innerHTML = `
+        <h3>${item.title}</h3>
+        <p><strong>${item.date}</strong></p>
+        <p>${item.description.substring(0,100)}...</p>
+      `;
+
+      container.appendChild(card);
+    });
+  });
+</script>
   <!-- Research carousel -->
   <section class="section section-alt">
     <div class="container">

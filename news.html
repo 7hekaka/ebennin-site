@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>News | Ernest Bennin</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="research.html">Research</a>
+    <a href="publications.html">Publications</a>
+    <a href="projects.html">Projects & Awards</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="container">
+    <h1>News & Updates</h1>
+    <div id="news-container" class="cards"></div>
+  </section>
+
+  <script>
+    fetch('data/data.json')
+      .then(res => res.json())
+      .then(data => {
+        const container = document.getElementById('news-container');
+
+        data.news.reverse().forEach(item => {
+          const card = document.createElement('div');
+          card.className = 'card';
+
+          card.innerHTML = `
+            <h3>${item.title}</h3>
+            <p><strong>${item.date}</strong></p>
+            <p>${item.description}</p>
+            ${item.image ? `<img src="${item.image}" style="width:100%; margin-top:10px;">` : ''}
+          `;
+
+          container.appendChild(card);
+        });
+      });
+  </script>
+
+</body>
+</html>

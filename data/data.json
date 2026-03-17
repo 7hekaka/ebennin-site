@@ -40,6 +40,20 @@
   "heroSubtitle": "NOBCChE-UTK President | GSA-UTK President | NSF C-CAS Trainee",
   "contactLocation": "Knoxville, TN",
   "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
+  "news": [
+  {
+    "title": "Paper accepted in Journal X",
+    "date": "2026-03-15",
+    "description": "Our latest work on catalytic mechanisms has been accepted for publication.",
+    "image": ""
+  },
+  {
+    "title": "Presented at ACS Conference",
+    "date": "2026-02-10",
+    "description": "Presented recent findings and connected with researchers in the field.",
+    "image": ""
+  }
+  ]
   "projects": [
     {
       "title": "President & Founding Member of GSA | UTK",
@@ -146,20 +160,6 @@
       "image": "/data/uploads/125f3e81-841c-4e18-b92f-a6344b80fa8f.jpeg"
     }
   ],
-  "news": [
-  {
-    "title": "Paper Accepted in Journal X",
-    "date": "March 2026",
-    "description": "Our latest work on catalytic mechanisms has been accepted...",
-    "image": ""
-  },
-  {
-    "title": "Presented at Conference Y",
-    "date": "February 2026",
-    "description": "Presented research findings at the International Chemistry Conference...",
-    "image": ""
-  }
-]
   "research": [
     {
       "title": "Ligand Design ",

@@ -146,6 +146,20 @@
       "image": "/data/uploads/125f3e81-841c-4e18-b92f-a6344b80fa8f.jpeg"
     }
   ],
+  "news": [
+  {
+    "title": "Paper Accepted in Journal X",
+    "date": "March 2026",
+    "description": "Our latest work on catalytic mechanisms has been accepted...",
+    "image": ""
+  },
+  {
+    "title": "Presented at Conference Y",
+    "date": "February 2026",
+    "description": "Presented research findings at the International Chemistry Conference...",
+    "image": ""
+  }
+]
   "research": [
     {
       "title": "Ligand Design ",

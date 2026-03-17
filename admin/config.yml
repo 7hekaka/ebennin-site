@@ -48,3 +48,16 @@ collections:
           - {label: "Contact Location", name: contactLocation, widget: string, required: false}
           - {label: "Contact Availability", name: contactAvailability, widget: string, required: false}
           - {label: "CV File", name: cvFile, widget: file, required: false}
+      - name: "news"
+        label: "News"
+        file: "data/data.json"
+        name: "news_content"
+        fields:
+          - label: "News"
+            name: "news"
+            widget: list
+            fields:
+              - {label: "Title", name: "title", widget: string}
+              - {label: "Date", name: "date", widget: string}
+              - {label: "Description", name: "description", widget: text}
+              - {label: "Image", name: "image", widget: image, required: false}

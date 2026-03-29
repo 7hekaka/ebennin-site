@@ -38,22 +38,22 @@
   "cvFile": "",
   "aboutShort": "Ernest Bennin is a doctoral candidate in chemistry at the University of Tennessee-Knoxville, exploring research at the intersection of ligand design, synthesis, asymmetric catalysis, and chemical probes for poisonous substance detection.",
   "heroSubtitle": "NOBCChE-UTK President | GSA-UTK President | NSF C-CAS Trainee",
+  "news": [
+    {
+      "title": "Joined NSF-CCAS",
+      "date": "2023-08-5",
+      "description": "In 2023, with the support of my principal investigator, I joined the NSF Center for Computer-Assisted Synthesis (C-CAS), a multi-institutional network that brings together synthetic chemists, computational chemists, computer scientists, and industry partners to accelerate reaction discovery and improve sustainable synthesis. The cross-disciplinary exposure I have gained through C-CAS has been invaluable in advancing my efforts to develop more selective and efficient catalysts for asymmetric synthesis.",
+      "image": "/data/uploads/img_3048.png"
+    },
+    {
+      "title": "Presented at ACS Conference",
+      "date": "2026-02-10",
+      "description": "Presented recent findings and connected with researchers in the field.",
+      "image": ""
+    }
+  ],
   "contactLocation": "Knoxville, TN",
   "publicationsNote": "For a full list of publications, please see my CV or contact me directly.",
-  "news": [
-  {
-    "title": "Paper accepted in Journal X",
-    "date": "2026-03-15",
-    "description": "Our latest work on catalytic mechanisms has been accepted for publication.",
-    "image": ""
-  },
-  {
-    "title": "Presented at ACS Conference",
-    "date": "2026-02-10",
-    "description": "Presented recent findings and connected with researchers in the field.",
-    "image": ""
-  }
-  ],
   "projects": [
     {
       "title": "President & Founding Member of GSA | UTK",
@@ -113,11 +113,6 @@
       "title": "Research Open House | Chemistry | UTK",
       "image": "/data/uploads/img_3522.jpeg",
       "description": "In 2024, I volunteered to host prospective graduate students visiting the Department of Chemistry at the University of Tennessee, Knoxville. The program exposed them to our academic offerings, student organizations, research facilities, and more, culminating in an enjoyable boat cruise (as shown in the attached image)."
-    },
-    {
-      "title": "Joined NSF-CCAS",
-      "description": "In 2023, with the support of my principal investigator, I joined the NSF Center for Computer-Assisted Synthesis (C-CAS), a multi-institutional network that brings together synthetic chemists, computational chemists, computer scientists, and industry partners to accelerate reaction discovery and improve sustainable synthesis. The cross-disciplinary exposure I have gained through C-CAS has been invaluable in advancing my efforts to develop more selective and efficient catalysts for asymmetric synthesis.",
-      "image": "/data/uploads/img_3048.png"
     },
     {
       "title": "Darko Research Group | UTK",

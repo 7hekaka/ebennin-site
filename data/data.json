@@ -40,6 +40,12 @@
   "heroSubtitle": "NOBCChE-UTK President | GSA-UTK President | NSF C-CAS Trainee",
   "news": [
     {
+      "title": "ASCG Committee Member | NOBCChE 2026",
+      "date": "2026-02-05",
+      "description": "To serve on this committee, applications were submitted and carefully reviewed. Out of approximately 25 applicants, I was selected as one of four PhD students chosen to collaborate with the national executive team in planning the 2026 NOBCChE Conference in Cincinnati, Ohio. The committee’s primary responsibility is to review and select recipients of the ASCG Awards (Tier 1 and Tier 2). ",
+      "image": "/data/uploads/nobcche-26.png"
+    },
+    {
       "title": "Featured on KnoxNews | 2026",
       "date": "2026-01-05",
       "description": "In this op-ed, I share how federal funding transformed my academic path and enabled me to pursue advanced research in catalysis and molecular sensing.",
@@ -103,12 +109,6 @@
       "date": "2022-08-01",
       "description": "In 2022, I received the FY23 Graduate School Fellowship at the University of Tennessee, Knoxville, to pursue my Ph.D. in chemistry directly after completing my bachelor’s degree. This five‑year award provides sustained support for my graduate studies and research, allowing me to transition seamlessly from undergraduate training into a full‑time research-focused doctoral program. Being selected for this fellowship has affirmed my potential as an emerging scientist and given me the resources and flexibility to focus on impactful, long-term research goals.",
       "image": "/data/uploads/img_0682.jpeg"
-    },
-    {
-      "title": "ASCG Committee Member | NOBCChE 2026",
-      "date": "2026-02-05",
-      "description": "To serve on this committee, applications were submitted and carefully reviewed. Out of approximately 25 applicants, I was selected as one of four PhD students chosen to collaborate with the national executive team in planning the 2026 NOBCChE Conference in Cincinnati, Ohio. The committee’s primary responsibility is to review and select recipients of the ASCG Awards (Tier 1 and Tier 2). ",
-      "image": "/data/uploads/nobcche-26.png"
     }
   ],
   "contactLocation": "Knoxville, TN",

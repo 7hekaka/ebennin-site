@@ -40,16 +40,16 @@
   "heroSubtitle": "NOBCChE-UTK President | GSA-UTK President | NSF C-CAS Trainee",
   "news": [
     {
-      "title": "President & Founding Member of GSA | UTK",
-      "description": "As a founding member and the elected president of the Ghana Student Association at the University of Tennessee, Knoxville, I lead the development of the organization’s vision, governance structure, and long-term strategic direction. Elected by the founding members, I have played a central role in establishing a sustainable platform that promotes cultural awareness, community engagement, and academic support for Ghanaian students and the broader campus community.\nThrough intentional leadership and collaboration, I continue to strengthen the association’s institutional presence while fostering meaningful connections that celebrate heritage, encourage mentorship, and enhance cross-cultural dialogue across campus.",
-      "date": "2025-08-27",
-      "image": "/data/uploads/aeffaa2f-4134-4292-9e30-e5880a831a8f.jpeg"
-    },
-    {
       "title": "Featured on KnoxNews | 2026",
       "date": "2026-01-05",
       "description": "In this op-ed, I share how federal funding transformed my academic path and enabled me to pursue advanced research in catalysis and molecular sensing.",
       "image": "/data/uploads/img_5266.jpeg"
+    },
+    {
+      "title": "President & Founding Member of GSA | UTK",
+      "description": "As a founding member and the elected president of the Ghana Student Association at the University of Tennessee, Knoxville, I lead the development of the organization’s vision, governance structure, and long-term strategic direction. Elected by the founding members, I have played a central role in establishing a sustainable platform that promotes cultural awareness, community engagement, and academic support for Ghanaian students and the broader campus community.\nThrough intentional leadership and collaboration, I continue to strengthen the association’s institutional presence while fostering meaningful connections that celebrate heritage, encourage mentorship, and enhance cross-cultural dialogue across campus.",
+      "date": "2025-08-27",
+      "image": "/data/uploads/aeffaa2f-4134-4292-9e30-e5880a831a8f.jpeg"
     },
     {
       "title": "NOBCChE President | UTK Chapter, 2025",
@@ -103,6 +103,12 @@
       "date": "2022-08-01",
       "description": "In 2022, I received the FY23 Graduate School Fellowship at the University of Tennessee, Knoxville, to pursue my Ph.D. in chemistry directly after completing my bachelor’s degree. This five‑year award provides sustained support for my graduate studies and research, allowing me to transition seamlessly from undergraduate training into a full‑time research-focused doctoral program. Being selected for this fellowship has affirmed my potential as an emerging scientist and given me the resources and flexibility to focus on impactful, long-term research goals.",
       "image": "/data/uploads/img_0682.jpeg"
+    },
+    {
+      "title": "ASCG Committee Member | NOBCChE 2026",
+      "date": "2026-02-05",
+      "description": "To serve on this committee, applications were submitted and carefully reviewed. Out of approximately 25 applicants, I was selected as one of four PhD students chosen to collaborate with the national executive team in planning the 2026 NOBCChE Conference in Cincinnati, Ohio. The committee’s primary responsibility is to review and select recipients of the ASCG Awards (Tier 1 and Tier 2). ",
+      "image": "/data/uploads/nobcche-26.png"
     }
   ],
   "contactLocation": "Knoxville, TN",

@@ -48,12 +48,6 @@
   "heroSubtitle": "NOBCChE-UTK President | GSA-UTK President | NSF C-CAS Trainee",
   "news": [
     {
-      "description": "Featured on the NSF CCI's Thank You, NSF! page in recognition of the impact of NSF support on graduate research and scientific development. I highlighted how my involvement in the Center for Computer-Assisted Synthesis (C-CAS) facilitated valuable research collaborations, particularly in density functional theory (DFT), and helped shape the direction of my doctoral research.\n\nRead the full article at https://www.nsfcci.org/nsf75.",
-      "title": "Featured by NSF Center for Chemical Innovation (CCI) | NSF 75th Anniversary",
-      "date": "10-27-2026",
-      "image": "/data/uploads/img_9524.jpeg"
-    },
-    {
       "description": "As president of the NOBCChE-UTK chapter, together with my executives, we organized and led a visit to Eastman Chemical Company in Kingsport, TN, bringing together 31 graduate student attendees. The tour featured engaging panel discussions, meaningful connections with Eastman professionals, a plant tour, and valuable insights into careers and real-world applications of STEM.\n\nPost-event feedback highlighted the tour’s strong impact, with members expressing enthusiasm for additional industry visits to better understand professional experiences, workplace dynamics, and career opportunities beyond academia. I am honored to lead an organization committed to creating meaningful opportunities and making a lasting impact in the STEM community.",
       "title": "NOBCChE-UTK | Eastman Site Visit ",
       "date": "10-05-2026",
@@ -106,6 +100,12 @@
       "date": "2026-04-01",
       "image": "/data/uploads/selected-for-nobcche-2026-cohort-.png",
       "title": "NOBCChE Leadership Academy | 2026"
+    },
+    {
+      "description": "Featured on the NSF CCI's Thank You, NSF! page in recognition of the impact of NSF support on graduate research and scientific development. I highlighted how my involvement in the Center for Computer-Assisted Synthesis (C-CAS) facilitated valuable research collaborations, particularly in density functional theory (DFT), and helped shape the direction of my doctoral research.\n\nRead the full article at https://www.nsfcci.org/nsf75.",
+      "title": "Featured by NSF Center for Chemical Innovation (CCI) | NSF 75th Anniversary",
+      "date": "10-27-2026",
+      "image": "/data/uploads/img_9524.jpeg"
     },
     {
       "title": "President & Founding Member of GSA | UTK",
